@@ -4,12 +4,15 @@
 // 下面这行代码需要 package.json
 const path = require("path");
     // 导入了一个path 包
+    
 const { VueLoaderPlugin } = require('vue-loader');
 // 导入 vue-loader 包
 const webpack = require('webpack');
+
 // npm install html-webpack-plugin --save-dev
 // 添加可以 打包 html 到 bundle里面的 包  然后导入它
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 // 导入可以压缩js文件的包
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
